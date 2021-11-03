@@ -132,7 +132,13 @@ class Microbit:
         
         return rounded_inches
 
+    def convertToCm(self, inch):  # Converts inches to cm
+        raw_cm = float(inch*2.54) # Conversion factor
         
+        rounded_centimeters = float(round(raw_cm)) # Rounds the cm to the nearest whole number
+        
+        return rounded_centimeters
+    
     def clampParametersToBounds(self, input, inputMin, inputMax):
         """This function checks whether an input parameter is within the
         given bounds. If not, it prints a warning and returns a value of the

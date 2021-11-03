@@ -6,8 +6,11 @@ from BirdBrain import Finch # Imports the Finch Library
 
 bird = Finch() # Needed to declare the Finch object
 
-bird.setMove('F',25,100) # Moves forward 25 cm quickly
-bird.setMove('B',25,30) # Moves backwards 25 cm slowly
+bird.setMove('F',bird.convertToCm(5),100) # Moves forward 5 inches quickly
 
-bird.setTurn('R',90,50) # Rotates 90 degrees cm slowly
+
+
+# bird.setMove('B',25,30)  Moves backwards 25 cm slowly
+
+# bird.setTurn('R',90,50) Rotates 90 degrees cm slowly
 
