@@ -11,3 +11,4 @@ bird.setMove('B',25,30) # Moves backwards 25 cm slowly
 
 bird.setTurn('R',90,50) # Rotates 90 degrees cm slowly
 
+bird.setMove('B',90,50) 
